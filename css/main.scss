@@ -8,3 +8,10 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "header";
+@import "index";
+
+html, body {
+  overflow: none;
+  height: 100%;
+  margin: none;
+}
