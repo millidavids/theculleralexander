@@ -10,8 +10,19 @@
 @import "header";
 @import "index";
 
+@font-face {
+  font-family: 'League Gothic';
+  src: url("/fonts/league-gothic/Leaguegothic-Regular.otf") format("opentype");
+}
+
 html, body {
-  overflow: none;
   height: 100%;
-  margin: none;
+  overflow: none;
+
+  #dumpy-index {
+    position: absolute;
+    right: 30%;
+    top: 20%;
+    width: 100%;
+  }
 }

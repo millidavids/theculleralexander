@@ -1,4 +1,6 @@
 .navbar {
+  top: 5%;
+
   .container-fluid {
     width: auto;
     margin-left: 300px;
@@ -27,7 +29,9 @@
           text-align: center;
 
           a {
-            font-size: 20px;
+            font-size: 30px;
+            font-family: "League Gothic";
+            letter-spacing: 2px;
 
             @media (max-width: 442px) {
               font-size: 14px;
