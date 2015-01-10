@@ -1,4 +1,8 @@
 #speech-bubble {
+  position: absolute;
+  left: -45%;
+  top: 65%;
   font-family: "League Gothic";
-  float: left;
+  font-size: 20px;
+  z-index: 1;
 }

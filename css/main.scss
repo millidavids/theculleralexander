@@ -19,15 +19,23 @@ html, body {
   height: 100%;
   overflow: none;
 
-  #dumpy-index {
+  #dumpy-default {
     position: absolute;
     float: left;
     right: 30%;
     top: 20%;
     width: 100%;
+    z-index: 1000;
   }
 
   #main-div {
-    // position this absolute
+    position: absolute;
+    left: 50%;
+    height: 100%;
+    width: 50%;
+
+    .container-fluid {
+      height: 100%;
+    }
   }
 }

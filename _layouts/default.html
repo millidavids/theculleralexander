@@ -7,9 +7,11 @@
 
     {% include header.html %}
 
-    <img id="dumpy-index" src="images/favicon-icon.png" alt="dumpy">
+    <img id="dumpy-default" src="images/favicon-icon.png" alt="dumpy">
     <div id="main-div">
-      {{ content }}
+      <div class="container-fluid">
+        {{ content }}
+      </div>
     </div>
 
     {% include footer.html %}
