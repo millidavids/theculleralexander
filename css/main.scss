@@ -21,8 +21,13 @@ html, body {
 
   #dumpy-index {
     position: absolute;
+    float: left;
     right: 30%;
     top: 20%;
     width: 100%;
+  }
+
+  #main-div {
+    // position this absolute
   }
 }
