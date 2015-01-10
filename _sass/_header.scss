@@ -30,7 +30,7 @@
 
           a {
             font-size: 30px;
-            font-family: "League Gothic";
+            font-family: $culler-font-family;
             letter-spacing: 2px;
 
             @media (max-width: 442px) {

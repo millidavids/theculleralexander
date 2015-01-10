@@ -3,6 +3,7 @@
 @charset "utf-8";
 
 // Import partials from `sass_dir` (defaults to `_sass`)
+@import "variables";
 @import "bootstrap-compass";
 @import "bootstrap-mincer";
 @import "bootstrap-sprockets";
@@ -11,7 +12,7 @@
 @import "index";
 
 @font-face {
-  font-family: 'League Gothic';
+  font-family: $culler-font-family;
   src: url("/fonts/league-gothic/Leaguegothic-Regular.otf") format("opentype");
 }
 
