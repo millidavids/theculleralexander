@@ -21,10 +21,21 @@ html, body {
   height: 100%;
   overflow: hidden;
 
-  #background {
+  #current-background {
     position: absolute;
     bottom: 0%;
-    width: 200%;
+    width: 100%;
+    z-index: -1000;
+
+    @media(max-width: 768px) {
+      display: none;
+    }
+  }
+
+  #off-screen-background {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
     z-index: -1000;
 
     @media(max-width: 768px) {
