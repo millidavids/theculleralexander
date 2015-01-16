@@ -22,7 +22,7 @@ html, body {
   overflow: hidden;
 
   #current-background {
-    position: absolute;
+    position: fixed;
     bottom: 0%;
     width: 100%;
     z-index: -1000;
@@ -33,7 +33,7 @@ html, body {
   }
 
   #off-screen-background {
-    position: absolute;
+    position: fixed;
     bottom: 0%;
     width: 100%;
     z-index: -1000;
@@ -44,18 +44,23 @@ html, body {
   }
 
   #main-div {
-    position: absolute;
-    left: 50%;
-    height: 100%;
-    width: 50%;
+    width: auto;
+    margin-left: 300px;
+    margin-right: 300px;
 
-    @media(max-width: 768px) {
-      width: 100%;
-      left: 0%;
+    @media (max-width: 992px) {
+      margin-left: 200px;
+      margin-right: 200px;
     }
 
-    .container-fluid {
-      height: 100%;
+    @media (max-width: 768px) {
+      margin-left: 100px;
+      margin-right: 100px;
+    }
+
+    @media (max-width: 700px) {
+      margin-left: 0px;
+      margin-right: 0px;
     }
   }
 }
