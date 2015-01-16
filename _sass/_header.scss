@@ -29,9 +29,31 @@
           text-align: center;
 
           a {
+            vertical-align: center;
+            position: absolute;
+            text-decoration: none;
+            color: blue;
             font-size: 30px;
             font-family: $culler-font-family;
             letter-spacing: 2px;
+            -webkit-transition: all 0.3s ease;
+                    transition: all 0.3s ease;
+
+
+            &:hover, &:focus, &:active {
+              color: orange;
+              -webkit-transform: translateY(-5px);
+                      transform: translateY(-5px);
+
+              &:before {
+                -webkit-transform: translateY(5px);
+                        transform: translateY(5px);
+              }
+            }
+
+            @media (max-width: 992px) {
+              font-size: 22px;
+            }
 
             @media (max-width: 442px) {
               font-size: 14px;

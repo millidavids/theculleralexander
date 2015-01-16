@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <img id="background" src="/images/double-wide.png" alt="dumpy" style="left: 0%;">
+    <div id="main-div">
+      <div class="container-fluid">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
